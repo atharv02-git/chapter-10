@@ -70,7 +70,8 @@ async function startMicroservice(dbHost, dbName, rabbitHost, port) {
     await messageChannel.consume(queue, consumeVideoUploadedMessage); // Starts receiving messages from the anonymous queue.
 
     app.listen(port, () => { // Starts the HTTP server.
-        console.log("Microservice online.");
+        // console.log("Microservice online.");
+        console.log("Hello World from metadata microservice")
     });
 }
 

@@ -42,5 +42,6 @@ app.post("/upload", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Microservice online`);
+    // console.log(`Microservice online`);
+    console.log("Hello World from mockstorage microservice")
 });
